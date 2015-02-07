@@ -1,0 +1,13 @@
+notifications:
+  email: false
+language: python
+python:
+  - "2.7"
+  - "3.3"
+  - "3.4"
+env:
+  - PIP_USE_MIRRORS=true
+script:
+  - python setup.py test
+
+# vim: set ts=2 sw=2 et
